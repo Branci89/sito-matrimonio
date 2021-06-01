@@ -2,7 +2,7 @@
 function Ghirigoro(){
 return(
     
-<svg version="1.1" id="Modo_de_aislamiento" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px" width="260px" height="90px" viewBox="0 0 521.8 181" enable-background="new 0 0 521.8 181" >
+<svg version="1.1" id="Modo_de_aislamiento" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px" width="260px" height="90px" viewBox="0 0 521.8 181" enableBackground="new 0 0 521.8 181" >
 <path className="theme-header-decoration" d="M391.4,89.5c0.5,1,1.1,2,1.7,2.9c0.5,0.8,1.1,1.6,1.8,2.4c1.2,1.3,2.5,2.5,4,3.4c1.4,0.8,2.9,1.4,4.5,1.7
     c3,0.6,6.1,0,8.9-1.2c2.1-0.9,4.1-2.2,5.9-3.7c0.7-0.6,1.5-1.3,2.1-2c2.5-2.5,4.6-5.3,6.2-8.4c0.8-1.5,1.5-3.1,2.1-4.8
     c0.6-1.6,1-3.3,1.2-5c0.8-5.5,0.6-11.2-0.4-16.6c-0.9-5.2-2.6-10.3-4.8-15.1c0.2,0.2,0.4,0.4,0.6,0.6c2.1,2.1,4.4,4.1,6.8,6

@@ -30,3 +30,25 @@
 .App-link {
   color: #61dafb;
 }
+
+#demo {
+  background-color: #282c34;
+  color: #FFF;
+}
+
+nav{
+  background-color: #282c34;
+  color: #FFF;
+  font-size:18px;
+  width:100%; 
+  display:flex;
+  justify-content:space-evenly;
+  padding: 10px
+}
+
+.w3-button:hover {
+	color: #000 !important;
+	background-color: #b8d583 !important;
+  font-size:18px;
+  
+}
