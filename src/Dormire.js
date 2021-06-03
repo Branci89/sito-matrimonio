@@ -14,14 +14,14 @@ function Dormire(){
            
         </div>
         
-        <div className="w3-row" style={{width:'75%', margin:'auto'}}>
+        <div className="w3-row" style={{width:'75%', margin:'auto', marginBottom:'50px'}}>
         <hr></hr>
-        <div className="w3-card-2" style={{display:'flex', alignItems:'center', borderRadius:'4px', textAlign:'justify'}}>
+        <div className="w3-card-2 w3-row" style={{display:'flex', alignItems:'center', borderRadius:'4px'}}>
                 <div className="w3-third">
                  <p><strong>Borgo Castel Savelli</strong></p>
                  <p>Via Sentiero del bosco 6,<br></br>00046 Grottaferrata, Roma</p>
                  </div>
-                <div className="w3-twothird w3-padding">
+                <div className="w3-twothird w3-padding" style={{textAlign:'justify'}}>
                 <p>Si trova a 500mt in linea d'aria rispetto alla location del ricevimento. 
                 <br></br>Residence con mini appartamenti con cucinino. Tipi di stanze: Doppia, tripla, quadrupla</p>
                 <div>
@@ -37,7 +37,7 @@ function Dormire(){
                  <p><strong>B&B Il Casaletto</strong></p>
                  <p>Via Monte Compatri 33<br></br>00078 Monte Porzio Catone, Roma</p>
                  </div>
-                <div className="w3-twothird w3-padding">
+                <div className="w3-twothird w3-padding" style={{textAlign:'justify'}}>
                 <p>Piccolo B&B con un paio di camere a disposizione. Tipi di stanze: Doppia, tripla.</p>
                 <div>
                     <span>Telefono: </span><strong>349 592 9060</strong>

@@ -1,9 +1,10 @@
 import {Link } from 'react-router-dom';
+import Header from './header'
 
 function Home() {
     return(
         <>
-       
+      <Header></Header> 
       <section className="w3-row"  >
         <div className="w3-content" style={{margin: 'auto', width:'50%'}}>
           <h1>Benvenuti!</h1>
