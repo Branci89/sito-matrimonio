@@ -15,8 +15,8 @@ function Nav(){
           <Link className="w3-bar-item w3-button w3-hide-small" to="/">Home</Link>
           <Link className="w3-bar-item w3-button w3-hide-small" to="/Conferma">Conferma Presenza</Link>
           <Link className="w3-bar-item w3-button w3-hide-small" to="/Dormire">Dove Dormire</Link>
-          <Link className="w3-bar-item w3-button w3-hide-small" to="#">Regalo di Nozze</Link>
-          <Link className="w3-bar-item w3-button w3-hide-small" to="#">Contatti</Link>
+          <Link className="w3-bar-item w3-button w3-hide-small" to="/Regalo">Regalo di Nozze</Link>
+          <Link className="w3-bar-item w3-button w3-hide-small" to="/Contatti">Contatti</Link>
           <div className="w3-hide-large w3-hide-medium">
                   <button className="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onClick={myFunction}>
                   <span><img alt="ham-menu" style={{width:'24px'}} src={HambIcon}></img></span></button>
@@ -26,8 +26,8 @@ function Nav(){
                 <div><Link to="/">Home</Link></div>
                 <div><Link to="/Conferma">Conferma Presenza</Link></div>
                 <div><Link to="/Dormire">Dove Dormire</Link></div>
-                <div><Link to="#"></Link>Regalo di Nozze</div>
-                <div><Link to="#"></Link>Contatti</div>
+                <div><Link to="/Regalo"></Link>Regalo di Nozze</div>
+                <div><Link to="/Contatti"></Link>Contatti</div>
             </div>
         </>
     )
