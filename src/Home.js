@@ -5,23 +5,40 @@ function Home() {
     return(
         <>
       <Header></Header> 
+      <div className="container">
       <section className="w3-row"  >
-        <div className="w3-content" style={{margin: 'auto', width:'50%'}}>
-          <h1>Benvenuti!</h1>
-          <p>È proprio vero, <strong>ci sposiamo!!!</strong></p>
-          <p> Siamo felicissimi!<br></br>
-          Non stiamo più nella pelle e vogliamo condividere con te questa notizia!
-          Stiamo organizzando questo matrimonio e vogliamo che sia un giorno speciale per tutti.</p>
-          <div><img src="https://i.postimg.cc/t44CLXCn/eucalipto-sito.png" alt="eucalipto-sito.png"></img></div>
-          <p>
-            In attesa del grande giorno, abbiamo creato questo sito, dove puoi trovare tutta una serie <strong>informazioni</strong> da condividere e i dettagli della nostra storia d'amore.</p>
 
-          <p>È importante che tu sappia che nella sezione "{<Link to="/Conferma"><strong>conferma presenza</strong></Link>}" puoi confermare se vieni o no al matrimonio. 
-          Dacci risposta il prima possibile per favore: ci renderai più facile l'organizzazione dei preparativi.</p>
 
-          <p>Goditi il sito e ci vediamo presto! Un abbraccione!</p>
-        </div>
+        <div className="w3-content  d-flex wrap f-column align-items-center justify-content-center">
+          
+
+        <h2 className="pt-1">Benvenuto!</h2>
+          <p>È proprio vero, nonostante il periodo, ci sposiamo! Ce la stiamo mettendo tutta per organizzare questo matrimonio e vogliamo renderlo un giorno <b>divertente e piacevole per tutti</b>. Per questo qui sotto troverai sempre gli <b>ultimi aggiornamenti</b> per sapere come muoverti e cosa fare.
+          Nelle varie sezioni del sito invece, abbiamo raccolto altre informazioni che speriamo possano esserti utili.</p>
+          
+
+          <div className="divider"></div>
+
+          <h2>Ultimi aggiornamenti COVID</h2>
+          <div></div>
+          <div className="back-green"><span><b>~ 07/06/2021 ~</b></span></div>
+          
+          <p>Dal 15 Giugno è prevista la ripartenza dei matrimoni. NON ci saranno limiti di invitati,  ma saranno previsti distanziamenti e norme di sicurezza per tutelare tutti. 
+          </p><p>
+            Per partecipare al ricevimento ogni invitato dovrà <b>obbligatoriamente essere dotato di Green Pass: </b>
+            Dovrete inviare a noi, pochi giorni prima, la <b>documentazione</b> che attesta che avete fatto il <b>vaccino</b> (almeno la prima dose, da 15 giorni), il <b>tampone</b> (rapido nelle 48 ore prima, il molecolare dovrebbe essere portato a 72 ore) o essere guariti da massimo 15 giorni dal COVID. 
+            
+           <b> Sono esclusi da questi obblghi solo i bambini al di sotto dei 2 anni  </b>
+          </p>
+          </div>
+
+
+
+
+
+
         </section>
+        </div>
         </>
     )
 } export default Home;

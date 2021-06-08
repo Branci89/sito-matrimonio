@@ -1,51 +1,66 @@
 
 
-function Dormire(){
-    return(
+function Dormire() {
+    return (
         <>
-        <div className="w3-row w3-margin">
-            <div className="w3-container" style={{width:'70%', margin:'auto'}}>
-                <p>Se venite da fuori, 
-                qui potete trovare una lista di strutture dove poter soggiornare
-                nei giorni prima/dopo il nostro matrimonio. Potete direttamente contattarle</p>
-                <p>Se preferite invece passare dal più tradizionale booking.com, vi abbiamo lasciato i link alle 
+            <div className="container">
+                <h2 className="pt-1">Dove dormire</h2>
+
+                <div className="d-flex wrap justify-content-center">
+                    <div class="casa-img width-50 width-100">
+
+                    </div>
+                    <div>
+                        <p>Se venite da fuori,
+                        qui potete trovare una <b>lista di strutture</b> dove poter soggiornare
+                nei giorni prima/dopo il nostro matrimonio. Potete contattarle direttamente, vi lasciamo i recapiti.</p>
+                        <p>Se preferite invece prenotare direttamente online, troverete anche i link alle
                 pagine di prenotazione. Grazie in anticipo per lo sforzo che farete per essere presenti!</p>
+                    </div>
+                </div>
+
+
+
+                <div className="divider"></div>
+                <div className="w3-card-2 w3-row d-flex wrap" style={{ alignItems: 'center', borderRadius: '4px' }}>
+                    <div className="w3-third">
+                        <h3>Borgo Castel Savelli</h3>
+                        <p>Via Sentiero del bosco 6,<br></br>00046 Grottaferrata, Roma</p>
+                    </div>
+                    <div className="w3-twothird w3-padding border-green" style={{ textAlign: 'justify' }}>
+                        <p><strong>Vicino alla location del ricevimento.</strong> Residence con mini appartamenti con cucinino. Tipi di stanze: Doppia, tripla, quadrupla.</p>
+                         <p>Telefono:<strong>06 9431 6081</strong></p>
+
+                        <p>Oppure <strong><a href="https://www.booking.com/hotel/it/borgo-castel-savelli.it.html" target="newtab">
+                            prenota su Booking.com</a></strong></p>
+                    </div>
+                </div>
+                <hr></hr>
+                <div className="w3-card-2  d-flex wrap" style={{ alignItems: 'center', borderRadius: '4px' }}>
+                    <div className="w3-third">
+                        <h3>B&b La dolce casetta</h3>
+                        <p>Via Anagnina 31<br></br>00046 Grottaferrata, Roma</p>
+                    </div>
+                    <div className="w3-twothird w3-padding border-green" style={{ textAlign: 'justify' }}>
+                        <p> <strong>Vicino alla location del ricevimento</strong>. Sono due casette indipendenti immerse nel verde, ognuna può ospitare dalle 2 alle 4 persone</p>
+                            <p>Telefono: <strong>349 772 2382</strong></p>
+                        <p>Oppure <strong><a href="https://www.booking.com/hotel/it/la-dolce-casetta.it.html"> prenota su Booking.com</a></strong></p>
+                    </div>
+                </div>
+                <hr></hr>
+                <div className="w3-card-2  d-flex wrap" style={{alignItems: 'center', borderRadius: '4px' }}>
+                    <div className="w3-third">
+                        <h3>B&B Il Casaletto</h3>
+                        <p>Via Monte Compatri 33<br></br>00078 Monte Porzio Catone, Roma</p>
+                    </div>
+                    <div className="w3-twothird w3-padding border-green" style={{ textAlign: 'justify' }}>
+                        <p>Piccolo B&B con un paio di camere a disposizione, a Monte Porzio Catone , dove si svolge la cerimonia. Tipi di stanze: Doppia, tripla.</p>
+                            <p>Telefono: <strong>349 592 9060</strong></p>
+                        <p>Oppure <strong><a href="https://www.booking.com/hotel/it/b-amp-b-il-casaletto.it.html"> prenota su Booking.com</a></strong></p>
+                    </div>
+                </div>
             </div>
-           
-        </div>
         
-        <div className="w3-row" style={{width:'75%', margin:'auto', marginBottom:'50px'}}>
-        <hr></hr>
-        <div className="w3-card-2 w3-row" style={{display:'flex', alignItems:'center', borderRadius:'4px'}}>
-                <div className="w3-third">
-                 <p><strong>Borgo Castel Savelli</strong></p>
-                 <p>Via Sentiero del bosco 6,<br></br>00046 Grottaferrata, Roma</p>
-                 </div>
-                <div className="w3-twothird w3-padding" style={{textAlign:'justify'}}>
-                <p>Si trova a 500mt in linea d'aria rispetto alla location del ricevimento. 
-                <br></br>Residence con mini appartamenti con cucinino. Tipi di stanze: Doppia, tripla, quadrupla</p>
-                <div>
-                    <span>Telefono: </span><strong>06 9431 6081</strong>
-                </div>
-                <p>Oppure <strong><a href="https://www.trivago.it/?aDateRange%5Barr%5D=2021-09-16&aDateRange%5Bdep%5D=2021-09-18&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=1643895%2F100&hasList=1&hasMap=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=20000&address=&addressGeoCode=&offset=0&ra=&overlayMode=" target="newtab">
-                 cercalo su trivago!</a></strong></p>
-                </div>
-            </div>
-            <hr></hr>
-            <div className="w3-card-2" style={{display:'flex', alignItems:'center', borderRadius:'4px'}}>
-                <div className="w3-third">
-                 <p><strong>B&B Il Casaletto</strong></p>
-                 <p>Via Monte Compatri 33<br></br>00078 Monte Porzio Catone, Roma</p>
-                 </div>
-                <div className="w3-twothird w3-padding" style={{textAlign:'justify'}}>
-                <p>Piccolo B&B con un paio di camere a disposizione. Tipi di stanze: Doppia, tripla.</p>
-                <div>
-                    <span>Telefono: </span><strong>349 592 9060</strong>
-                </div>
-                <p>Oppure <strong><a href="https://www.booking.com/hotel/it/b-amp-b-il-casaletto.it.html"> prenota su Booking.com</a></strong></p>
-                </div>
-            </div>
-        </div>
         </>
 
     )
