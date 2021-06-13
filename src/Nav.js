@@ -26,8 +26,8 @@ function Nav(){
                 <div><Link to="/">Home</Link></div>
                 <div><Link to="/Conferma">Conferma Presenza</Link></div>
                 <div><Link to="/Dormire">Dove Dormire</Link></div>
-                <div><Link to="/Regalo"></Link>Regalo di Nozze</div>
-                <div><Link to="/Contatti"></Link>Contatti</div>
+                <div><Link to="/Regalo">Regalo di Nozze</Link></div>
+                <div><Link to="/Contatti">Contatti</Link></div>
             </div>
         </>
     )
