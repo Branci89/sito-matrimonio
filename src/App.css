@@ -82,7 +82,7 @@ padding-bottom: 50px
 
 .App-header {
   
-  background: url(/src/img/header-hero-3.png) no-repeat center -200px fixed;
+  background: url('./img/header-hero-3.png') no-repeat center -200px fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

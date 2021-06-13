@@ -1,3 +1,5 @@
+import React  from 'react';
+
 import Ghirigoro from './disegno';
 import Ghirigoro2 from './disegno2';
 

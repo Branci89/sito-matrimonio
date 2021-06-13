@@ -1,4 +1,5 @@
 import {Link } from 'react-router-dom';
+import React  from 'react';
 import HambIcon from './img/hamburgerIcon.png'
 function Nav(){
     const myFunction = ()=> {
@@ -10,7 +11,7 @@ function Nav(){
         }
       }
     return(
-        <>
+        <span>
           <nav className="w3-bar">
           <Link className="w3-bar-item w3-button w3-hide-small" to="/">Home</Link>
           <Link className="w3-bar-item w3-button w3-hide-small" to="/Conferma">Conferma Presenza</Link>
@@ -29,6 +30,6 @@ function Nav(){
                 <div><Link to="/Regalo">Regalo di Nozze</Link></div>
                 <div><Link to="/Contatti">Contatti</Link></div>
             </div>
-        </>
+        </span>
     )
 } export default Nav

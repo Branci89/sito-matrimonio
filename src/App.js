@@ -1,4 +1,6 @@
 import './App.css';
+import React  from 'react';
+
 import {
   BrowserRouter ,
   Switch,
@@ -12,6 +14,7 @@ import Contatti from './Contatti'
 import Nav from './Nav';
 
 function App() {
+  
 
   return (
     <div >

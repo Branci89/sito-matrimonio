@@ -1,9 +1,10 @@
-import {Link } from 'react-router-dom';
 import Header from './header'
+import React  from 'react';
+
 
 function Home() {
     return(
-        <>
+      <div>
       <Header></Header> 
       <div className="container">
       <section className="w3-row"  >
@@ -39,6 +40,6 @@ function Home() {
 
         </section>
         </div>
-        </>
+        </div> 
     )
 } export default Home;

@@ -1,8 +1,8 @@
+import React  from 'react';
 
 
 function Dormire() {
     return (
-        <>
             <div className="container">
                 <h2 className="pt-1">Dove dormire</h2>
 
@@ -60,8 +60,5 @@ function Dormire() {
                     </div>
                 </div>
             </div>
-        
-        </>
-
     )
 } export default Dormire

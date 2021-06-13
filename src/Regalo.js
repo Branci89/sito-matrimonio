@@ -1,3 +1,5 @@
+import React  from 'react';
+
 function Regalo(){
     return(
         <div className="container">
