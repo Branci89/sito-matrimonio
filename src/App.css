@@ -79,6 +79,9 @@ padding-bottom: 50px
   width:100%;
 }
 
+.MuiButton-containedPrimary{
+  background-color: #98ada7 !important;
+}
 
 .App-header {
   
@@ -211,6 +214,10 @@ nav{
 	background-color: #b8d583 !important;
   font-size:18px;
   
+}
+
+.conferma{
+  margin-top: 20px;
 }
 
 

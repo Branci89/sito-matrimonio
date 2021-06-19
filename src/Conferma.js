@@ -27,13 +27,14 @@ function Conferma(){
                    NOME:value.val().NOME,
                    COGNOME:value.val().COGNOME,
                    PRESENZA: value.val().PRESENZA,
+                   data: value.val().data,
                    ID: value.key
                }
             tmpGuest.push(tmp);
            })
             setGuest(tmpGuest);
             setFresh(true)
-            console.log(tmpGuest)
+            
         })
     },[fresh])
     
@@ -77,25 +78,26 @@ function Conferma(){
             <label>Cognome</label>
             <TextField  label="Cognome"  value={cognome} onChange={handleCognomeChange} variant="outlined" />
             <span style={{marginTop:'20px'}}>
-            <Button variant="outlined" onClick={cercaInvitato}>Cerca</Button>
+            <Button variant="contained" color="primary" onClick={cercaInvitato}>Cerca</Button>
             </span>
-            
-            {(sectionVisible && invitato !== null) && (<section>
+            {(invitato === null) && <div>E' sicuramente colpa di Claudio, riprova :D </div>}
+            {(sectionVisible && invitato !== null) && (<section className="conferma">
                 <div>
                     { 
                         <div>
                             <label>Nome:</label> <span>{invitato.NOME}</span><br></br>
                             <label>Cognome:</label> <span>{invitato.COGNOME}</span>
+                            
                             {
                                 invitato.PRESENZA ?
-                                    <div>Hai confermato la tua presenza in data {new Intl.DateTimeFormat("it-IT", {
+                                    <div>Hai confermato la tua presenza in data {Intl.DateTimeFormat("it-IT", {
                                         year: "numeric",
                                         month: "long",
                                         day: "2-digit"
-                                    }).format(invitato.data)} <Button variant="outlined" onClick={cancella}>ci ho ripensato!</Button></div> :
+                                    }).format(invitato.data)} <br></br> <Button variant="contained" color='primary' onClick={cancella}>ci ho ripensato!</Button> </div> :
                                     <div>
-                                        <label>Presenza</label> -
-                                        <Button variant="outlined" onClick={confermaPresenza}> Conferma Presenza!</Button>
+                                        <label style={{marginRight:'20px'}}>Presenza</label> 
+                                        <Button variant="contained" color="primary" onClick={confermaPresenza}> Conferma Presenza!</Button>
                                     </div>
                            
                             }
